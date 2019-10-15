@@ -1,6 +1,7 @@
 import React, { useEffect, useState, Fragment } from "react";
 import { CSSTransition } from "react-transition-group";
 import { LoadingMask } from "components/LoadingMask";
+import { Header } from "components/BasicLayout/components/Header";
 import "./index.scss";
 
 const useLayoutFade = () => {
@@ -25,6 +26,7 @@ const BasicLayout: React.FC = ({ children }) => {
       >
         <LoadingMask />
       </CSSTransition>
+      <Header />
       <div className="basic-layout-component">{children}</div>
     </Fragment>
   );
