@@ -1,0 +1,14 @@
+.global-animation-fade-enter {
+  opacity: 0;
+}
+.global-animation-fade-enter-active {
+  opacity: 1;
+  transition: opacity 800ms;
+}
+.global-animation-fade-exit {
+  opacity: 1;
+}
+.global-animation-fade-exit-active {
+  opacity: 0;
+  transition: opacity 800ms;
+}

@@ -1,0 +1,19 @@
+.basic-layout-component {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(-45deg, #6190e8, #a7bfe8, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
